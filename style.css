@@ -144,9 +144,13 @@ h2::after {
     box-sizing: border-box;
 }
 
+.options:first-child table {
+    margin-top: 5px;
+}
+
 #tag {
     position: relative;
-    margin-top: -40.7px;
+    margin-top: -40.2px;
     left:123.4px;
     float: right;
     margin-bottom: 8px;
@@ -243,3 +247,12 @@ h2::after {
     color: var(--gray);
 }
 
+/* Adding responsiveness for screen less than 430px */
+
+@media (width <= 430px) {
+    .unit_info {
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+}
