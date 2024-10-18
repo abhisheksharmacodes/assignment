@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form name="unit_selection" action="">
+            <div id="title">
+                <h2>YAY! It’s BOGO</h2>
+            </div>
+            <div id="container">
+                <div class="options" id="option1">
+                    <div class="info">
+                        <div class="unit_container">
+                            <input type="radio" name="units" id="unit_1" value="unit_1">
+                            <div>
+                                <div class="unit_info">
+                                    <span class="unit">1 Unit</span>
+                                    <div class="tag">10% Off</div>
+                                </div>
+                                <span>Standard Price</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="current_price">$10.00 USD</span>
+                            <strike class="cut_price">$24.00 USD</strike>
+                        </div>
+                    </div>
+                </div>
+                <div class="options" id="option2">
+                    <img src="tag.svg" height="32" id="tag"/>
+                    <div class="info">
+                        <div class="unit_container">
+                            <input type="radio" name="units" id="unit_2" value="unit_2" checked>
+                            <div class="unit_info">
+                                <span class="unit">2 Unit</span>
+                                <div class="tag">20% Off</div>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="current_price">$18.00 USD</span>
+                            <strike class="cut_price">$24.00 USD</strike>
+                        </div>
+                    </div>
+                </div>
+                <div class="options" id="option3">
+                    <div class="info">
+                        <div class="unit_container">
+                            <input type="radio" name="units" id="unit_3" value="unit 3">
+                            <div class="unit_info">
+                                <span class="unit">3 Unit</span>
+                                <div class="tag">30% Off</div>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="current_price">$24.00 USD</span>
+                            <strike class="cut_price">$24.00 USD</strike>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="pricing">
+                <span class="primary_text">Free Delivery</span>
+                <span><b>Total: $18.00 USD</b></span>
+            </div>
+            <div id="button_details">
+                <button type="submit"><span>+</span>&NonBreakingSpace; Add to Cart</button>
+                <p>@ Powered by Pumper</p>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
