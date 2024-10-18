@@ -15,13 +15,13 @@ let content3 = opt3.innerHTML
 
 let content = `
 <table>
-    <tr>
+    <tr  class="first_child">
         <td></td>
         <td>Size</td>
         <td>Color</td>
     </tr>
     <tr>
-        <td>#1</td>
+        <td class="first_child">#1</td>
         <td>
             <select>
                 <option value="S">S</option>
@@ -38,7 +38,7 @@ let content = `
         </td>
     </tr>
     <tr>
-        <td>#2</td>
+        <td class="first_child">#2</td>
         <td>
             <select>
                 <option value="S">S</option>
